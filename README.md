@@ -23,3 +23,5 @@ Each Subgroup Roadmaps will be collected in thie [TVS wiki] (https://www.lsstcor
 [LSST False Positive docs] (http://dmtn-006.lsst.io/en/latest/)
 
 [Metrics Summary Table] (https://confluence.lsstcorp.org/display/SIM/Summary+Table+Column+Descriptions)
+
+[sncosmo] (http://sncosmo.readthedocs.org/en/v1.2.x/)
