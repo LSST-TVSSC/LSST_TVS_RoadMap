@@ -16,3 +16,7 @@ Working groups documents
 [Classification] (https://docs.google.com/document/d/17WJvUXMIDy6uTgi1LaqV6Trxhs2XpRs-854paXr2CbA/edit?usp=sharing)
 
 
+
+=================================
+
+[Metrics Summary Table] (https://confluence.lsstcorp.org/display/SIM/Summary+Table+Column+Descriptions)
