@@ -4,7 +4,7 @@ collecting material from the [TVS RoadMap meeting March 2016] (https://indico.he
 Each Subgroup Roadmaps will be collected in thie [TVS wiki] (https://www.lsstcorp.org/sciencewiki/index.php?title=Transients_and_Variable_Stars)
 
 
-Working groups documents
+#Working groups documents
 
 
 [Stellar] (https://docs.google.com/document/d/1-SHM8d6Qdt9JsrBvohW2mB4OlQuxuLJVdR5f5Ny4xkQ/edit?usp=sharing)
@@ -18,5 +18,8 @@ Working groups documents
 
 
 =================================
+#USEFUL LINKS
+
+[LSST False Positive docs] (http://dmtn-006.lsst.io/en/latest/)
 
 [Metrics Summary Table] (https://confluence.lsstcorp.org/display/SIM/Summary+Table+Column+Descriptions)
