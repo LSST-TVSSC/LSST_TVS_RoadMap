@@ -25,3 +25,5 @@ Each Subgroup Roadmaps will be collected in thie [TVS wiki] (https://www.lsstcor
 [Metrics Summary Table] (https://confluence.lsstcorp.org/display/SIM/Summary+Table+Column+Descriptions)
 
 [sncosmo] (http://sncosmo.readthedocs.org/en/v1.2.x/)
+
+[available OpSims] (https://confluence.lsstcorp.org/display/SIM/Operations+Simulator+Benchmark+Surveys)
