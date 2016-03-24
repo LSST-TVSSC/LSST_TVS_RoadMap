@@ -1,7 +1,7 @@
 # LSST_TVS_RoadMap
-collecting material from the YTVS RoadMap meeting March 2016
+collecting material from the [TVS RoadMap meeting March 2016] (https://indico.hep.anl.gov/indico/conferenceDisplay.py?ovw=True&confId=968)
 
-The Roadmaps will be collected in thie [TVS wiki] (https://www.lsstcorp.org/sciencewiki/index.php?title=Transients_and_Variable_Stars)
+Each Subgroup Roadmaps will be collected in thie [TVS wiki] (https://www.lsstcorp.org/sciencewiki/index.php?title=Transients_and_Variable_Stars)
 
 
 Working groups documents
