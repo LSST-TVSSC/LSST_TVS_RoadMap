@@ -20,6 +20,10 @@ Each Subgroup Roadmaps will be collected in thie [TVS wiki] (https://www.lsstcor
 =================================
 #USEFUL LINKS
 
+[Observing Strategy white paper - github repo](https://github.com/LSSTScienceCollaborations/ObservingStrategy)
+
+[Observing strategy white paper - PDF continuous build] (http://www.slac.stanford.edu/~digel/ObservingStrategy/whitepaper/LSST_Observing_Strategy_White_Paper.pdf)
+
 [LSST False Positive docs] (http://dmtn-006.lsst.io/en/latest/)
 
 [Metrics Summary Table] (https://confluence.lsstcorp.org/display/SIM/Summary+Table+Column+Descriptions)
