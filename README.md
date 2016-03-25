@@ -29,3 +29,5 @@ Each Subgroup Roadmaps will be collected in thie [TVS wiki] (https://www.lsstcor
 [available OpSims] (https://confluence.lsstcorp.org/display/SIM/Operations+Simulator+Benchmark+Surveys)
 
 [opsim] (http://www.lsst.org/scientists/simulations/opsim)
+
+[DeepDrillongFields white papers] (https://lsstcorp.org/content/whitepapers32012)
