@@ -32,5 +32,5 @@ Each Subgroup Roadmaps will be collected in thie [TVS wiki] (https://www.lsstcor
 
 [DeepDrillongFields white papers] (https://lsstcorp.org/content/whitepapers32012)
 
-[Opsim runs details} (http://ops2.lsst.org:8080/) (technical details of each run)
+[Opsim runs details](http://ops2.lsst.org:8080/) (technical details of each run)
 
