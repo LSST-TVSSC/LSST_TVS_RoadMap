@@ -10,9 +10,10 @@ light curve in one band:         type_name_band.dat  (eg snIc_94I_V.dat)
 SINGLE BAND LIGHT CURVE
 - first line of the fileshould be commented '#' and report time unit (days) and band 
 - please report the following information if available
-1) source of the file ('# ref= Smith et al 2010')
-2) The t0 epoch       ('# jd_expl=   24550059.3')
-3) if the light curve is the observed one or a smooth version of the light curve ('# type= smooth') 
+  1) source of the file ('# ref= Smith et al 2010')
+  2) The t0 epoch       ('# jd_expl=   24550059.3')
+  3) if the light curve is the observed one or a smooth version of the light curve ('# type= smooth') 
+
 example:
 #  days   V 
 #  ref= Smith et al 2010
@@ -28,10 +29,11 @@ ___________________________________________________________________
 MULTI BAND LIGHT CURVE
 - first line of the file should be commented '#' and report time unit (days) and bands 
 - please report the following information if available
-1) source of the file ('# ref= Smith et al 2010')
-2) The t0 epoch       ('# jd_expl=   24550059.3')
-3) if the light curve is the observed one or a smooth version of the light curve ('# type= smooth') 
-4) report if color correction has been applied  ('#  ebv= 0.4')
+  1) source of the file ('# ref= Smith et al 2010')
+  2) The t0 epoch       ('# jd_expl=   24550059.3')
+  3) if the light curve is the observed one or a smooth version of the light curve ('# type= smooth') 
+  4) report if color correction has been applied  ('#  ebv= 0.4')
+
 example: 
 #  days   B     V     R      I 
 #  ref= Smith et al 2010
@@ -47,4 +49,5 @@ example:
 _____________________________________________________________________
 NOTES:
 1)  smooth light curves are prefered 
+
 2)  sloan magnitudes  are prefered ugriz
