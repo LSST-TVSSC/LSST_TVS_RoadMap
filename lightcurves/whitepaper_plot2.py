@@ -53,11 +53,13 @@ def readmodels(model='shen'):
     elif model == 'temp':
         _dir= 'SN_template/'
         for asci in ['snIa_K211b.dat','snIb_2009jf_V.dat','snIb_ptf13bvn_V.dat','PTF12cod_R.dat','PTF11htj_R.dat','PTF12bro_R.dat',\
-                     'snIc_2002ap_V.dat','cv_tpyx_V.dat','cv_v1324sco_V.dat','cv_sscyg_V.dat']:
+                     'snIc_2002ap_V.dat','cv_tpyx_V.dat','cv_v1324sco_V.dat','cv_sscyg_V.dat',\
+                     'SNIa_CSM_r.dat']:
             data = np.genfromtxt(_dir + asci,'float')
             print asci
             if asci in ['snIa_K211b.dat','snIb_2009jf_V.dat','snIb_ptf13bvn_V.dat','PTF12cod_R.dat','PTF11htj_R.dat','PTF12bro_R.dat',\
-                          'snIc_2002ap_V.dat','cv_tpyx_V.dat','cv_v1324sco_V.dat','cv_sscyg_V.dat']:
+                          'snIc_2002ap_V.dat','cv_tpyx_V.dat','cv_v1324sco_V.dat','cv_sscyg_V.dat',\
+            'SNIa_CSM_r.dat']:
                 ph,V = zip(*data)
             else:
                 ph,u,B,V,r,i = zip(*data)
@@ -108,10 +110,14 @@ lab={'snIa_K211b.dat':'SN Ia',
      'cv_v1324sco_V.dat':'CV',
      'cv_sscyg_V.dat':'CV',
      'shen_0_6_0_2.dat':'.Ia', 
-     'shen_1_2_0_02.dat':'.Ia'}
+     'shen_1_2_0_02.dat':'.Ia',
+     'SNIa_CSM_r.dat':'Ia+shock',
+     'SNIa_RG1Msunprogenitor_maxinteraction_r.dat':'Ia+CSM'}
 
-for key in ['snIa_K211b.dat','snIc_2002ap_V.dat','snIb_2009jf_V.dat','snIb_ptf13bvn_V.dat','PTF12cod_R.dat','PTF11htj_R.dat','PTF12bro_R.dat','cv_tpyx_V.dat','cv_v1324sco_V.dat','cv_sscyg_V.dat',\
-            'shen_0_6_0_2.dat', 'shen_1_2_0_02.dat']:
+for key in ['snIa_K211b.dat','snIc_2002ap_V.dat','snIb_2009jf_V.dat','snIb_ptf13bvn_V.dat','PTF12cod_R.dat','PTF11htj_R.dat',\
+            'PTF12bro_R.dat','cv_tpyx_V.dat','cv_v1324sco_V.dat','cv_sscyg_V.dat',\
+            'shen_0_6_0_2.dat', 'shen_1_2_0_02.dat',\
+            'SNIa_CSM_r.dat']:
     ph = models[key]['days']
     mag = models[key]['mag']
     
@@ -167,7 +173,7 @@ for key in ['snIa_K211b.dat','snIc_2002ap_V.dat','snIb_2009jf_V.dat','snIb_ptf13
 #        mvec.append(m)
 #        cvec.append(c)
 
-    ax.legend(ncol=1,loc=(.8,.1),numpoints=1,fontsize = 10)
+    ax.legend(ncol=1,loc=(.7,.1),numpoints=1,fontsize = 10)
     ii=ii+1
 
 
