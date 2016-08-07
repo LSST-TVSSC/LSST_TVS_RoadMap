@@ -56,7 +56,7 @@ def readmodels(model='shen'):
                      'snIc_2002ap_V.dat', 'cv_tpyx_V.dat', 'cv_v1324sco_V.dat', 'cv_sscyg_V.dat', \
                      'SNIa_CSM_r.dat']:
             data = np.genfromtxt(_dir + asci, 'float')
-            print ("this input", asci)
+            print ("this input is:", asci)
             if asci in ['snIa_K211b.dat', 'snIb_2009jf_V.dat', 'snIb_ptf13bvn_V.dat', 'PTF12cod_R.dat', 'PTF11htj_R.dat', 'PTF12bro_R.dat', \
                           'snIc_2002ap_V.dat', 'cv_tpyx_V.dat', 'cv_v1324sco_V.dat', 'cv_sscyg_V.dat', \
             'SNIa_CSM_r.dat']:

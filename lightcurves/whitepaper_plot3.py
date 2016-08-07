@@ -1,13 +1,14 @@
 #!/usr/bin/env python
-
+from __future__ import print_function
 import numpy as np
 import pylab as pl
 import glob
 import os
-import string
 from numpy import interp as ninterp
 
 #pl.ion()
+#FBB if running on an interactive shell activate pl.ion() within the shel before execing the code
+
 pl.rcParams['figure.figsize'] = 12, 5
 ax = pl.axes([.08, .1, .41, .8])
 ax2 = pl.axes([.55, .1, .41, .8])
@@ -23,7 +24,7 @@ def colorrange(N):
 
     color2 = {}
     for j in color1.keys():
-        print j
+        print ("color couter", j)
         color2[j] = color1[int(len(color1) - j - 1)]
     return color2
 
@@ -38,20 +39,20 @@ def readmodels(model='shen'):
     if model == 'shen':
         _dir = 'models_shen2010/'
         files = glob.glob(_dir + '*2.dat')
-        print files
-        for file in files:
-            data = np.genfromtxt(file, 'float')
+        print ("input files", files)
+        for f in files:
+            data = np.genfromtxt(f, 'float')
             t, M_bol, M_U, M_B, M_V, M_R, M_I, M_J, M_H, M_K = zip(*data)
-            models[string.split(file, '/')[-1]] = {}
-            models[string.split(file, '/')[-1]]['days'] = np.array(t)
-            models[string.split(file, '/')[-1]]['mag'] = (np.array(M_V) * (-1)) + np.max(M_V)
+            models[f.split('/')[-1]] = {}
+            models[f.split('/')[-1]]['days'] = np.array(t)
+            models[f.split('/')[-1]]['mag'] = (np.array(M_V) * (-1)) + np.max(M_V)
     elif model == 'temp':
         _dir = 'SN_template/'
         for asci in ['snIa_K211b.dat', 'snIb_2009jf_V.dat', 'snIb_ptf13bvn_V.dat', 'PTF12cod_R.dat', 'PTF11htj_R.dat', 'PTF12bro_R.dat', \
                      'snIc_2002ap_V.dat', 'cv_tpyx_V.dat', 'cv_v1324sco_V.dat', 'cv_sscyg_V.dat', \
                      'SNIa_CSM_r.dat']:
             data = np.genfromtxt(_dir + asci, 'float')
-            print asci
+            print ("this input is:", asci)
             if asci in ['snIa_K211b.dat', 'snIb_2009jf_V.dat', 'snIb_ptf13bvn_V.dat', 'PTF12cod_R.dat', 'PTF11htj_R.dat', 'PTF12bro_R.dat', \
                         'snIc_2002ap_V.dat', 'cv_tpyx_V.dat', 'cv_v1324sco_V.dat', 'cv_sscyg_V.dat', \
                         'SNIa_CSM_r.dat']:
