@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 from __future__ import print_function
++__author__ = 'stefano valenti'
 import numpy as np
 import pylab as pl
 import glob
