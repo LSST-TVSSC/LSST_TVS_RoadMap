@@ -302,7 +302,7 @@ def plotDiffMatrix(diffMatrix, allticks, norm, gap, ax, log=True):
                        #            diffMatrix[np.isfinite(diffMatrix)].max(),
                        #            5),
                        orientation='horizontal')
-    #cbar.set_ticklabels(['%.2g'%l for l in 10**np.linspace(-16,0.5, 5)])
+    cbar.set_ticks([extrema[0]*1.2, extrema[1]*0.8])
     cbar.set_ticklabels(['different', 'same'])    
     #cbar.set_label(r"$\Delta$mag similarity, log scale, day 0-4, 12h intervals", rotation=0)
     pl.xticks(range(diffMatrix.shape[0]), xticks, rotation=30)
