@@ -4,35 +4,35 @@
         {
         "name": "Introduction (Editors: RS, FBB)",
           "children":[
-              {"name":"Potential of LSST for time domain science: FBB/RS", "size": 2283},
-              {"name":"Science cases covered by V1 of this document: FBB/RS", "size": 2283},
-              {"name":"Science cases NOT covered by V1 of this document: FBB/RS", "size": 2283},
-              {"name":"Structure of this document: FBB/RS", "size": 1983}
+              {"name":"Potential of LSST for time domain science: FBB/RS", "size": 283},
+              {"name":"Science cases covered by V1 of this document: FBB/RS", "size": 283},
+              {"name":"Science cases NOT covered by V1 of this document: FBB/RS", "size": 283},
+              {"name":"Structure of this document: FBB/RS", "size": 283}
           ]
         },
          
         {"name": "Time Critical Science",
             "children": [
-                {"name": "Data products (Editor: M.Graham)", "size": 2283},
+                {"name": "Data products (Editor: M.Graham)", "size": 283},
                 
                 {"name": "Extrinsic (Editor: R.Street)",
                     "children": [
-                        {"name": "Microlensing: R.Street", "size": 2283}
+                        {"name": "Microlensing: R.Street", "size": 283}
                     ]
                 },
                 
                 {"name": "Galactic & Local Universe (Editor: P.Szkody)",
                     "children": [
-                        {"name": "Eruptive CVs: P Szkody", "size": 2283}
+                        {"name": "Eruptive CVs: P Szkody", "size": 283}
                     ]
                 },
                 
                 {"name": "Extragalactic (Editor: )",
                     "children": [
-                        {"name":"ILOTs: A.Pastorello,E.Mason", "size": 2283},
-                        {"name":"GRB: M.Drout, E.Bellm", "size": 2283},
-                        {"name":"Blazars: F.D'ammando et al", "size": 2283},
-                        {"name":"EM counterparts of GW events: E.Brocato, R.Margutti", "size": 2283}
+                        {"name":"ILOTs: A.Pastorello,E.Mason", "size": 283},
+                        {"name":"GRB: M.Drout, E.Bellm", "size": 283},
+                        {"name":"Blazars: F.D'ammando et al", "size": 283},
+                        {"name":"EM counterparts of GW events: E.Brocato, R.Margutti", "size": 283}
                     ]
                 }
             ]
@@ -40,26 +40,26 @@
          
         {"name": "Non-Time Critical Science",
             "children": [
-                {"name": "Data products (Editor: M.Graham)", "size": 2283},
+                {"name": "Data products (Editor: M.Graham)", "size": 283},
                 {"name": "Extrinsic: (Editor: M.Lund, J.Pepper)",
                     "children": [
-                        {"name": "Transiting exoplanets: M.Lund, J.Pepper", "size": 2283},
-                        {"name": "Eclipsing binary stars: A.Prsa", "size": 2283}
+                        {"name": "Transiting exoplanets: M.Lund, J.Pepper", "size": 283},
+                        {"name": "Eclipsing binary stars: A.Prsa", "size": 283}
                     ]
                 },
                 {"name": "Galactic & Local Universe (Editor: K.Hambelton)",
                     "children": [
-                        {"name": "Pulsating stars: K.Hambelton et al.", "size": 2283},
-                        {"name": "Variability in Ultra-cool dwarfs/BDs: M.Rabus", "size": 2283},
-                        {"name": "EXor/FUor: T.Giannini, S.Bonito, S.Antoniucci", "size": 2283},
-                        {"name": "Eruptive binaries (CVs): P.Szkody", "size": 2283},
-                        {"name": "Compact binaries (in quiescence and outburst): E.Mason", "size": 2283},
-                        {"name": "Population properties for BHBs: M.Johnson, P.Gandhi", "size": 2283}
+                        {"name": "Pulsating stars: K.Hambelton et al.", "size": 283},
+                        {"name": "Variability in Ultra-cool dwarfs/BDs: M.Rabus", "size": 283},
+                        {"name": "EXor/FUor: T.Giannini, S.Bonito, S.Antoniucci", "size": 283},
+                        {"name": "Eruptive binaries (CVs): P.Szkody", "size": 283},
+                        {"name": "Compact binaries (in quiescence and outburst): E.Mason", "size": 283},
+                        {"name": "Population properties for BHBs: M.Johnson, P.Gandhi", "size": 283}
                     ]
                 },
                 {"name": "Extragalactic (Editor: C.Raiteri,C.Righi)",
                     "children": [
-                        {"name": "Blazars: C.Righi et al",  "size": 2283}
+                        {"name": "Blazars: C.Righi et al",  "size": 283}
                     ]
                 }
             ]
@@ -72,19 +72,19 @@
             "children": [
                 {"name": "Extrinsic: (Editor:  A.Prsa)",
                     "children": [
-                        {"name": "Eclipsing binary stars: A.Prsa", "size": 2283}
+                        {"name": "Eclipsing binary stars: A.Prsa", "size": 283}
                     ]
                 },
                 {"name": "Galactic & Local Universe (Editor: M.Rabus)",
                     "children": [
-                        {"name": "Variability in Ultra-cool dwarfs/BDs: M.Rabus", "size": 2283},
-                        {"name": "Compact binaries (in quiescence+outburst): E.Mason", "size": 2283},
-                        {"name":"ILOTs: A.Pastorello,E.Mason", "size": 2283}
+                        {"name": "Variability in Ultra-cool dwarfs/BDs: M.Rabus", "size": 283},
+                        {"name": "Compact binaries (in quiescence+outburst): E.Mason", "size": 283},
+                        {"name":"ILOTs: A.Pastorello,E.Mason", "size": 283}
                     ]
                 },
                 { "name": "Extragalactic (Editor:  M.I.C Martin)",
                     "children": [
-                        {"name": "Blazars: M.I.C.MArtin et al",  "size": 2283}
+                        {"name": "Blazars: M.I.C.Martin et al",  "size": 283}
                     ]  
                 }
             ]
@@ -96,22 +96,22 @@
             "children": [
                 {"name": "Extrinsic (Editor: M.Moniez)",
                     "children": [
-                        {"name": "Eclipsing binary stars: A.Prsa", "size": 2283},
-                        {"name": "Microlensing for Black Holes: M.Moniez", "size": 2283}
+                        {"name": "Eclipsing binary stars: A.Prsa", "size": 283},
+                        {"name": "Microlensing for Black Holes: M.Moniez", "size": 283}
                     ]
                 },
                 {"name": "Galactic & Local Universe (Editor: K.Bell)",
                     "children": [
-                        {"name": "Pulsating stars: K.Hambelton et al.", "size": 2283},
-                        {"name": "Variability in Ultra-cool dwarfs/BDs: M.Rabus", "size": 2283},
-                        {"name": "Variables in LMC SMC: P.Szkody", "size": 2283},
-                        {"name": "Compact binaries (in quiescence+outburst): E.Mason", "size": 2283},
-                        {"name":"ILOTs: A.Pastorello,E.Mason", "size": 2283}
+                        {"name": "Pulsating stars: K.Hambelton et al.", "size": 283},
+                        {"name": "Variability in Ultra-cool dwarfs/BDs: M.Rabus", "size": 283},
+                        {"name": "Variables in LMC SMC: P.Szkody", "size": 283},
+                        {"name": "Compact binaries (in quiescence+outburst): E.Mason", "size": 283},
+                        {"name":"ILOTs: A.Pastorello,E.Mason", "size": 283}
                      ]
                 },
                 {"name": "Extragalactic (Editor: B.Balmaverde)",
                     "children": [
-                        {"name": "Blazars: B.Balmaverde et al",  "size": 2283}
+                        {"name": "Blazars: B.Balmaverde et al",  "size": 283}
                     ]
                 }
             ]
@@ -120,15 +120,15 @@
          
       {"name": "Tasks (Editor: RS,FBB)",
             "children": [
-                {"name": "Tasks broken down by science area", "size": 2283},
-                {"name": "Classification", "size": 2283},
-                {"name": "L3 data products to be developed", "size": 2283},
-                {"name": "Key infrastructure elements", "size": 2283}
+                {"name": "Tasks broken down by science area", "size": 283},
+                {"name": "Classification", "size": 283},
+                {"name": "L3 data products to be developed", "size": 283},
+                {"name": "Key infrastructure elements", "size": 283}
             ]
         }, 
          
          
-      {"name": "Summary and next steps", "size": 16540}
+      {"name": "Summary and next steps", "size": 1640}
          
          
  
