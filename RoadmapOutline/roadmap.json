@@ -61,6 +61,12 @@
                     "children": [
                         {"name": "Blazars: C.Righi et al",  "size": 283}
                     ]
+                },
+                
+                {"name": "Science cases that require Use-Generated Data Product",
+                    "children": [
+                        
+                    ]
                 }
                 ]
       },
