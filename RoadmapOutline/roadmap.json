@@ -1,7 +1,4 @@
-    {
-     "name": "TVS Roadmap",
-     "children": [
-        {
+     {
         "name": "Introduction (Editors: RS, FBB)",
           "children":[
               {"name":"Potential of LSST for time domain science: FBB/RS", "size": 2283},
@@ -130,9 +127,5 @@
          
       {"name": "Summary and next steps", "size": 16540}
          
-         
  
-    ]
-}
-
 
